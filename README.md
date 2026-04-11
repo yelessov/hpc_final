@@ -572,7 +572,7 @@ This project demonstrates:
 ---
 
 **Author:** Developed as a master's-level High-Performance Computing course project  
-**Date:** 2024  
+**Date:** 2026
 **License:** Educational Use
 ```
 [Rank 0] Blurred img1.jpg in 0.0234s
@@ -582,8 +582,8 @@ This project demonstrates:
 
 ## Team
 
-Abylkaiyr Yelessov
-Nurmukhambet Izimgali
+- Abylkaiyr Yelessov
+- Nurmukhambet Izimgali
 
 ## References
 
