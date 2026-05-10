@@ -893,15 +893,23 @@ This project demonstrates:
 **Institution:** University-level HPC Research  
 **License:** Educational Use
 
-**Example Output (4000×6000 Benchmark):**
+**Example Output (Processing img1.jpg through img5.jpg):**
 ```
-[Rank 0] Blurred 4k_photo.jpg in 0.0342s
-[Rank 1] Sobel applied to 4k_photo.jpg in 0.0289s
-[Rank 2] Threshold applied to 4k_photo.jpg in 0.0089s
->>> CPU Cluster Complete! Total: 0.0720s <<<
+[Rank 0] Blurred img1.jpg in 0.0234s
+[Rank 1] Sobel applied to img1.jpg in 0.0156s
+[Rank 2] Threshold applied to img1.jpg in 0.0089s
+[Rank 0] Blurred img2.jpg in 0.0219s
+[Rank 1] Sobel applied to img2.jpg in 0.0168s
+[Rank 2] Threshold applied to img2.jpg in 0.0095s
+>>> CPU Pipeline Complete! Total: 0.2340s <<<
 
-[GPU Worker] Processing 4k_photo.jpg with Metal compute shader...
-[GPU Worker] Kernel (fused Sobel+Threshold) execution: 16.0ms
-[GPU Worker] GPU Total Time: 17.2ms (18.6× faster)
-[GPU Worker] Result saved to gpu_result_4k_photo.jpg
+[GPU Worker] Processing img3.jpg with Metal compute shader...
+[GPU Worker] Kernel (fused Sobel+Threshold) execution: 1.4ms
+[GPU Worker] GPU Total Time: 1.84ms
+[GPU Worker] Result saved to final_img3.jpg
+
+[GPU Worker] Processing img4.jpg with Metal compute shader...
+[GPU Worker] Kernel (fused Sobel+Threshold) execution: 1.4ms
+[GPU Worker] GPU Total Time: 1.84ms
+[GPU Worker] Result saved to final_img4.jpg
 ```
