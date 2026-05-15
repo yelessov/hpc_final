@@ -890,7 +890,7 @@ This project demonstrates:
 
 **Author(s):** Developed as a master's-level High-Performance Computing course project  
 **Date:** 2026  
-**Institution:** University-level HPC Research  
+**Institution:** University of Messina, Department of Mathematics, Computer Science, Physics and Earth Science, Master's Program in Data Science  
 **License:** Educational Use
 
 **Example Output (Processing img1.jpg through img5.jpg):**
